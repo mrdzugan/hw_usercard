@@ -1,14 +1,14 @@
 @import "./reset.css";
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #6f7789;
 }
 
-.userCard{
+.userCard {
     width: 300px;
     height: 500px;
     background-color: #393D45;
@@ -16,7 +16,8 @@ body{
     border-radius: 24px;
     overflow: hidden;
 }
-.cardHeaderContainer{
+
+.cardHeaderContainer {
     height: 100px;
     background-color: #E7EBEE;
     text-align: center;
@@ -25,22 +26,26 @@ body{
     font-weight: bold;
     padding: 35px;
 }
-.cardMainContainer{
+
+.cardMainContainer {
     padding: 25px;
 }
-.cardImageContainer{
+
+.cardImageContainer {
     margin: auto;
     width: 125px;
     height: 125px;
     border-radius: 50%;
     overflow: hidden;
 }
-.cardImageContainer > img{
+
+.cardImageContainer > img {
     width: inherit;
     height: inherit;
     object-fit: cover;
 }
-.cardBioContainer{
+
+.cardBioContainer {
     font-size: 14px;
     color: #E7EBEE;
     text-align: justify;
