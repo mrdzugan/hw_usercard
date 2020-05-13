@@ -1,1 +1,13 @@
 @import "./reset.css";
+
+body{
+    background-color: #6f7789;
+}
+
+.userCard{
+    width: 300px;
+    height: 500px;
+    background-color: #393D45;
+    margin: 5vh auto;
+    border-radius: 24px;
+}
