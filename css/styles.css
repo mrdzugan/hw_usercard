@@ -25,3 +25,18 @@ body{
     font-weight: bold;
     padding: 35px;
 }
+.cardMainContainer{
+    padding: 25px;
+}
+.cardImageContainer{
+    margin: auto;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cardImageContainer > img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
