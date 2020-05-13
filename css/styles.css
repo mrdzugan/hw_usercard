@@ -40,3 +40,10 @@ body{
     height: inherit;
     object-fit: cover;
 }
+.cardBioContainer{
+    font-size: 14px;
+    color: #E7EBEE;
+    text-align: justify;
+    word-spacing: 0.3em;
+    padding: 20px 0;
+}
